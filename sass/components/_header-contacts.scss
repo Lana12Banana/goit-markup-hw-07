@@ -23,8 +23,8 @@
     outline: none;
 }
 
-.contacts-header .contacts-header:hover,
-.contacts-header .contacts-header:focus {
+.contacts-header .contacts-header__link:hover,
+.contacts-header .contacts-header__link:focus {
     color: var(--accent-color);
     outline: none;
 }

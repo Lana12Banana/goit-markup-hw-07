@@ -202,8 +202,8 @@ h1,h2,h3,h4,h5,h6,p,ul {
     outline: none;
 }
 
-.contacts-header .contacts-header:hover,
-.contacts-header .contacts-header:focus {
+.contacts-header .contacts-header__link:hover,
+.contacts-header .contacts-header__link:focus {
     color: var(--accent-color);
     outline: none;
 }
@@ -327,7 +327,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 /* Hero */
 
-.main.page {
+.page {
     text-align: center;
     padding: 200px 0 200px
 }
