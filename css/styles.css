@@ -255,8 +255,8 @@ border-radius: 2px;
 
 .site-nav .site-nav__link:hover,
 .site-nav .site-nav__link:focus,
-.contacts-list .site-nav__link:hover,
-.contacts-list .site-nav__link:focus {
+.contacts-header .site-nav__link:hover,
+.contacts-header .site-nav__link:focus {
     color: var(--accent-color);
     outline: none;
 }
@@ -277,7 +277,7 @@ border-radius: 2px;
     background-size: contain;
 }
 
-.contacts-list a {
+.contacts-header a {
     margin-top: 32px;
     margin-bottom: 32px;
     color: var(--description-text-color);
@@ -291,11 +291,11 @@ border-radius: 2px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-list li + li {
+.contacts-header li + li {
     margin-left: 50px;
 }
 
-.contacts-list {
+.contacts-header {
     display: flex;
     margin-left: auto;
     align-items: baseline;
@@ -325,10 +325,6 @@ border-radius: 2px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/*.contacts-header a:hover {
-    fill: var(--accent-color);
-}*/
 
 
 /* Hero */
