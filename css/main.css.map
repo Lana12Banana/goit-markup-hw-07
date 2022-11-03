@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["../sass/main.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA","file":"main.css"}
+{
+    "version": 3,
+    "mappings": "AAAA;;;8BAG8B",
+    "sources": [
+        "../sass/main.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

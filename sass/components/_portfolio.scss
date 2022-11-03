@@ -1,0 +1,86 @@
+.portfolio-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-buttons .portfolio-buttons__item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.portfolio-buttons .portfolio-buttons__link{
+    display: inline-block;
+    border: 1px solid transparent;
+    background-color: var(--secondary-bg-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadov 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-buttons .portfolio-buttons__item :hover,
+.portfolio-buttons .portfolio-buttons__item :focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    outline: none;
+}
+
+.link--all {
+    padding: 6px 25px;
+    min-width: 73px;
+    height: 38px;
+    left: 512px;
+    top: 174px;
+}
+
+.portfolio-buttons__item .link--active {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.link--site {
+    padding: 6px 22px;
+    min-width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+}
+
+.link--apps {
+    padding: 6px 22px;
+    min-width: 112px;
+    height: 38px;
+    left: 726px;
+    top: 174px;
+}
+
+.link--design {
+    padding: 6px 22px;
+    min-width: 103px;
+    height: 38px;
+    left: 846px;
+    top: 174px;
+}
+
+.link--marketing {
+    padding: 6px 22px;
+    min-width: 130px;
+    height: 38px;
+    left: 957px;
+    top: 174px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
