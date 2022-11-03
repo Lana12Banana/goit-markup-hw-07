@@ -35,3 +35,34 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+img {
+    display: block;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.section.no-padding {
+    padding-top: 0;
+}
+
+.occupation-title,
+.team-title,
+.clients-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.occupation-works .occupation-works__item+.occupation-works__item,
+.advantages .advantages-item+.advantages-item,
+.workers .workers__item+.workers__item {
+    margin-left: 30px;
+}
