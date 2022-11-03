@@ -241,12 +241,12 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 /* Наші клієнти */
 
-.clients-companies {
+.clients-company {
     display: flex;
     gap: 30px;
 }
 
-.company-logo-icons {
+.company__logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,8 +261,8 @@ h1,h2,h3,h4,h5,h6,p,ul {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.company-logo-icons:hover,
-.company-logo-icons:focus {
+.company__logo:hover,
+.company__logo:focus {
     border-color: var(--accent-color);
     outline: none;
 
@@ -271,7 +271,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.company-icon {
+.company__icon {
     width: 106px;
     height: 60px;
     fill: currentColor;
@@ -281,16 +281,16 @@ h1,h2,h3,h4,h5,h6,p,ul {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.company-logo-icons:hover .company-icon,
-.company-logo-icons:focus .company-icon {
+.company__logo:hover .company__icon,
+.company__logo:focus .company__icon {
     border-color: var(--accent-color);
     fill: var(--accent-color);
 }
 
 
 
-.company-icon:hover,
-.company-icon:focus {
+.company__icon:hover,
+.company__icon:focus {
     border-color: var(--accent-color);
     fill: var(--accent-color);
 }
@@ -358,7 +358,9 @@ h1,h2,h3,h4,h5,h6,p,ul {
     margin-bottom: 30px
 }
 
-.info {
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--dark-bg-coolor);
 }
 
@@ -634,11 +636,6 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 
 /* Footer */
-
-.info {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
 
 .contacts-footer {
     margin-bottom: 9px;
