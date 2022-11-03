@@ -63,15 +63,16 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        color: var(--white-color);
+        border-radius: 50%;
+        outline: none;
+    }
 }
 
-.workers-button:hover,
-.workers-button:focus {
-    background-color: var(--accent-color);
-    color: var(--white-color);
-    border-radius: 50%;
-    outline: none;
-}
 
 .workers-button__icon {
     width: 20px;
@@ -81,9 +82,10 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: var(--white-color);
+    }
 }
 
-.workers-button__icon:hover,
-.workers-button__icon:focus {
-    fill: var(--white-color);
-}

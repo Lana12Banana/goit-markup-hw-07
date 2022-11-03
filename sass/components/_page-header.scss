@@ -29,14 +29,13 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 
-
-.site-nav .site-nav__link:hover,
-.site-nav .site-nav__link:focus {
+    .site-nav &:hover,
+    .site-nav &:focus {
     color: var(--accent-color);
     outline: none;
+    }
 }
 
 .link--current {

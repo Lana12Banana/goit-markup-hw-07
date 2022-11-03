@@ -16,17 +16,19 @@
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+        outline: none;
+
+        transition-property: border-color, fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
-.company__logo:hover,
-.company__logo:focus {
-    border-color: var(--accent-color);
-    outline: none;
 
-    transition-property: border-color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .company__logo:hover .company__icon,
 .company__logo:focus .company__icon {
@@ -42,10 +44,11 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+        fill: var(--accent-color);
+    }
 }
 
-.company__icon:hover,
-.company__icon:focus {
-    border-color: var(--accent-color);
-    fill: var(--accent-color);
-}

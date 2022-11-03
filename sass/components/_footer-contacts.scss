@@ -6,12 +6,6 @@
     margin-bottom: 0;
 }
 
-.footer-contacts__item:hover,
-.footer-contacts__item:focus {
-    color: var(--accent-color);
-    outline: none;
-}
-
 .footer-contacts__location {
     display: block;
     color: var(--white-color);
@@ -34,4 +28,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    outline: none;
+}
 }
